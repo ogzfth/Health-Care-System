@@ -1,0 +1,17 @@
+.nav-link {
+   font-size: 20px;
+   font-weight: 700;
+}
+
+#brand {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.index-body {
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    overflow-y: auto;
+}
+

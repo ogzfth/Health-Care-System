@@ -1,0 +1,131 @@
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img { 
+    width: 75%;       
+    height: 250px;  /* Fixed height */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.navbar.navigation {
+    background-color: #800020;     
+}
+
+.navbar.navigation .navbar-brand,
+.navbar.navigation .nav-link {
+    color: white !important;
+}
+
+.navbar.navigation .nav-link:hover {
+    color: #ddd !important; 
+}
+
+.navbar.navigation .dropdown-menu {
+    background-color: #800020;
+}
+
+.navbar.navigation .dropdown-item {
+    color: white !important;
+}
+
+.navbar.navigation .dropdown-item:hover {
+    background-color: #a51d1d3f; 
+}
+
+#btn-profile-logout {
+    font-size: 1.2em;      
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+    transition: transform 0.1s;  
+}
+
+#btn-profile-logout:active {
+    transform: translateY(1px);
+} 
+
+.patient-container {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px; 
+}
+
+.patient-card {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.patient-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    opacity: 0.7;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+#patients-table thead th {
+    font-size: 20px;
+    padding: 15px;
+}
+
+#patients-table tbody td {
+    font-size: 18px; 
+    padding: 12px;  
+} 
+
+.fc-event {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bodyDesign {
+    background-color: #FFEFD5;
+}
+
+.list-group {
+    margin-bottom: 0;
+}
+
+.shadowed-div {
+    box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.table {
+    width: 100%;
+    display: table;
+}
+
+.table thead,
+.table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    font-size: 18px;
+}

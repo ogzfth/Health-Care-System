@@ -1,0 +1,122 @@
+    .navbar.navigation {
+        background-color: #800020;  
+        
+    }
+
+    .navbar.navigation .navbar-brand,
+    .navbar.navigation .nav-link {
+        color: white !important;
+    }
+
+    .navbar.navigation .nav-link:hover {
+        color: #ddd !important; 
+    }
+
+    .navbar.navigation .dropdown-menu {
+        background-color: #800020;
+    }
+    .navbar.navigation .dropdown-item {
+        color: white !important;
+    }
+    .navbar.navigation .dropdown-item:hover {
+        background-color: #a51d1d3f; 
+    }
+
+    #btn-profile-logout {
+        font-size: 1.2em;      
+         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+        transition: transform 0.1s;  
+     }    
+    
+    #btn-profile-logout:active {
+        transform: translateY(1px);
+    } 
+
+    .list-group {
+        margin-bottom: 0;
+    }
+
+    .shadowed-div {
+        box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .custom-list-group-item {
+        transition: background-color 0.3s, color 0.3s;
+        font-size: 1.3em; 
+        padding: 15px 20px; 
+         border: none;     
+        color: #333333; 
+    }
+
+    .custom-list-group-item.active {
+        background: linear-gradient(to right, #00458e, #00458e);
+        color: white;
+        border: none;
+    }
+
+    .custom-list-group-item:hover {
+        background-color: #f5f5f5;
+        color: #0000;
+        text-decoration: none;
+    }
+
+    .custom-list-group-item i {
+        margin-right: 15px;
+        font-size: 1.2em;  
+    }
+
+    .custom-list-group-item.active i {
+        color: white;
+    }
+
+    .list-group .custom-list-group-item:first-child {
+        border-top-left-radius: 0;
+    }
+
+    .fc-event {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .fc-event {
+        padding: 5px 10px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        background-color: #f9f9f9;
+        transition: background-color 0.2s ease;
+    }
+
+    .fc-event:hover {
+        background-color: #f0f0f0;
+    }
+
+    .cancel-appointment {
+        display: inline-block;
+        margin-top: 5px;
+        color: red;
+    }
+
+    .cancel-appointment:hover {
+        color: darkred;
+    }
+    
+    #medical-history-details h4 {
+        font-size: 24px;
+    }
+    
+    #medicalHistoryTable, #medicalHistoryTable th, #medicalHistoryTable td {
+        font-size: 14px;
+    }
+
+    #scrollable-table h2 {
+        font-size: 28px;
+    }
+
+    #scrollable-table tr {
+        font-size: 14px;
+    }
+
+    .fc .fc-daygrid-day-number {
+        font-size: 16px;
+    }
