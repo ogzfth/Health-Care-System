@@ -3,5 +3,5 @@
 It was coded in PHP on back-end.
 Front-end solutions are based on HTML, CSS and Javascript.
 
-For interactivity and styling, FullCalendar, SweetAlert are FontAwesome are used.
+For interactivity and styling, FullCalendar, SweetAlert and FontAwesome are used.
 
